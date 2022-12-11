@@ -198,7 +198,7 @@ def station_stats(df):
 # Function for trip duration related statistics
 
 
-def trip_duration_stats(df):
+def trip_duration_stats2(df):
     """Displays statistics on the total and average trip duration.
     Args:
         param1 (df): The data frame you wish to work with.
@@ -329,7 +329,7 @@ def main():
         display_data(df)
         time_stats(df)
         station_stats(df)
-        trip_duration_stats(df)
+        trip_duration_stats2(df)
         user_stats(df)
 
         restart = input('\nWould you like to restart? Enter yes or no.\n')
