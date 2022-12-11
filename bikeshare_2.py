@@ -313,7 +313,7 @@ def display_data(df):
         # If user opts for it, this displays next 5 rows of data
         if rdata == "yes":
             print(df[counter:counter+5])
-        elif rdata != "yes":
+        else:
             break
 
     print('-'*80)
